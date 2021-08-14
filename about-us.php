@@ -88,7 +88,7 @@
                                 <p>Our vision is to be the leading law firm renowned for delivering top-notch legal expertise.</p>
                             </div>
                             <div class="col-md-6">
-                                <img src="assets/images/vision.jpg">
+                                <img src="assets/images/vision guided.png">
                             </div>
                         </div>
                     </div>

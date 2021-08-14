@@ -35,7 +35,7 @@
                                    <li><a href="contact-us.php">Contact</a></li>
                                  </ul>
 
-                                  <!--  <?php if (isset($_SESSION['id'])): ?>
+                                <!--    <?php if (isset($_SESSION['id'])): ?>
                                    <li>
                                        <a href="#"> 
                                            <i class="fas fa-user"></i> 
@@ -53,10 +53,10 @@
                                   <?php else: ?>
                                         <li><a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></li>
                                         <li><a href="<?php echo BASE_URL . '/login.php' ?>">login</a></li>
-                                   <?php endif; ?>
+                                   <?php endif; ?> -->
 
                                   
-                                 </ul> -->
+                                 </ul>
                             </nav>
                         </div>
                        </div> 

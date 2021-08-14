@@ -442,7 +442,7 @@ svg {
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   .slider-container {
-    height: 68%;
+    height: 95%;
     width: 100%;
     overflow: hidden;
   }
@@ -618,7 +618,7 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("slide2.jpg");
+  background-image: url("sport.jpg");
 }
 
 @media (max-width: 991px) {
@@ -659,21 +659,6 @@ svg {
   }
 }
 
-.slide:nth-child(5) {
-  left: 400%;
-}
-.slide:nth-child(5) .slide__bg {
-  left: -200%;
-  background-image: url("scaribg3.jpg");
-}
-
-@media (max-width: 991px) {
-  .slide:nth-child(5) .slide__text {
-    margin-top: 150px;
-    background-color: var(--primary-font-color);
-    opacity: 1;
-  }
-}
 .slide__content {
   position: absolute;
   top: 0;
@@ -959,25 +944,17 @@ svg {
   width: 300px;
   margin-top: -460px;
   margin-left: 470px;
-  overflow: hidden;
 }
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   #second-section-home .civil {
     margin-top: 30px;
-    margin-left: 15px;
-    overflow: hidden;
+    margin-left: 1px;
   }
 }
 /*End: Second section home*/
 
 /* Begin: Third section home */
-
-@media only screen and (min-width: 240px) and (max-width: 480px) {
-  #third-section-home .container {
-    overflow: hidden;
-  }
-}
 
 #third-section-home {
   background: var(--primary-font-color);
@@ -988,12 +965,19 @@ svg {
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   #third-section-home {
     margin-top: -20px;
-    height: 1080px;
-    overflow: hidden;
+    height: 220%;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  #third-section-home .row {
+    margin-top: -100px;
+    margin-bottom: 5px;
   }
 }
 
 #third-section-home h2 {
+  margin-left: 10px;
   color: white;
   font-size: 20px;
   font-family: var(--primary-font);
@@ -1001,8 +985,9 @@ svg {
 
 #third-section-home h3 {
   color: white;
-  font-size: 12px;
-  margin-top: 2px;
+  font-size: 10px;
+  padding-top: 5px;
+  margin-left: 8px;
   font-family: var(--secondary-font);
 }
 
@@ -1010,21 +995,21 @@ svg {
   #third-section-home h3 {
     margin-bottom: 40px;
     overflow: hidden;
+    padding-top: 7px;
   }
 }
 
 #third-section-home i {
-  font-size: 80px;
-  padding: 5px 5px;
+  font-size: 70px;
+  padding: 5px 10px;
   color: var(--white-color);
   justify-content: center;
 }
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   #third-section-home i {
-    padding: 10px;
-    font-size: 80px;
-    overflow: hidden;
+    font-size: 50px;
+    margin-top: -10px;
   }
 }
 
@@ -1146,7 +1131,6 @@ svg {
 .image__overlay:hover {
   opacity: 9;
   background: rgba(0, 0, 0, 0.5);
-  
 }
 
 .image__overlay:hover > * {
@@ -1377,7 +1361,7 @@ svg {
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   .hero {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
@@ -1428,12 +1412,6 @@ svg {
   margin-top: 15px;
 }
 
-@media only screen and (min-width: 240px) and (max-width: 480px) {
-  #first-section-about h2 {
-    font-size: 25px;
-  }
-}
-
 #first-section-about p {
   font-size: 2rem;
   letter-spacing: normal;
@@ -1445,6 +1423,42 @@ svg {
   padding: -10px 15px;
 }
 
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  #first-section-about{
+    overflow-x: hidden;
+    margin-left: -10px;
+    height: auto;
+  }
+
+  #first-section-about img {
+    overflow-x: hidden;
+  }
+
+  #first-section-about h2 {
+    font-size: 20px;
+  }
+  #first-section-about p {
+    font-size: 15px;
+  }
+  #second-section-about h2 {
+    font-size: 5px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  #second-section-about{
+    margin-left: -3px;
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  #third-section-about{
+    margin-top: -20px;
+  }
+}
+
 #second-section-about h2 {
   font-size: 30px;
   font-weight: 400;
@@ -1454,10 +1468,10 @@ svg {
   margin-top: -10px;
 }
 
-@media only screen and (min-width: 240px) and (max-width: 480px) {
+@media only screen and (min-width: 240px) and (max-width: 480px){
   #second-section-about h2 {
-    font-size: 25px;
-    margin-top: -100px;
+    font-size: 20px;
+    margin-top: 8px;
   }
 }
 
@@ -1471,6 +1485,13 @@ svg {
   padding-right: 10px;
 }
 
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  #second-section-about p {
+    font-size: 15px;
+    margin-top: -10px;
+  }
+}
+
 #third-section-about h2 {
   font-size: 30px;
   font-weight: 400;
@@ -1482,7 +1503,7 @@ svg {
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   #third-section-about h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 8px;
   }
 }
@@ -1499,7 +1520,7 @@ svg {
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   #third-section-about p {
-    font-size: 25px;
+    font-size: 15px;
     margin-top: -10px;
   }
 }
@@ -1555,6 +1576,9 @@ svg {
   margin-top: -8px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
+}
+.debt {
+  overflow: hidden;
 }
 
 .debt h1 {
@@ -1619,21 +1643,40 @@ svg {
   .debt .debt__point {
     padding: 20px 10px 20px;
   }
+
   .debt .list {
     padding-left: 150px;
     overflow: hidden;
+    font-size: 15px;
   }
+
   .debt .title {
     font-size: 30px;
+    margin-top: 10px;
+    margin-left: -160px;
   }
-  .debt .subtitle {
-    font-size: 2.5rem;
-    margin-left: -1.8px;
+
+  .debt h2 {
+    margin-bottom: -2px;
+    font-size: 5px;
+    margin-left: -5px;
   }
+
+  .debt h2 a {
+    font-size: 18px;
+  }
+
+  .debt h1 {
+    font-size: 20px;
+    padding-left: 150px;
+  }
+
   .debt p {
     padding-left: 150px;
     overflow: hidden;
+    font-size: 15px;
   }
+
   .link .text {
     padding: 20px 10px 20px;
     font-size: 18px;
@@ -1781,24 +1824,41 @@ svg {
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   .sport img {
     margin-top: 30px;
-    width: 500px;
+    width: 480px;
     display: block;
     height: 500px;
     overflow-x: hidden;
   }
+
   .sport .title {
     font-size: 30px;
+    margin-top: 10px;
+    margin-left: -5px;
+    font-family: "Josefin Sans", sans-serif;
   }
+
+  .sport h2 {
+    margin-bottom: -2px;
+    margin-left: -5px;
+  }
+
+  .sport h2 a {
+    font-size: 18px;
+  }
+
   .sport .list {
     padding-left: 150px;
     overflow: hidden;
+    font-size: 15px;
   }
+
   .sport p {
     padding-left: 150px;
     overflow: hidden;
+    font-size: 15px;
   }
   .sport h1 {
-    font-size: 2.5rem;
+    font-size: 20px;
     margin-left: -1.8px;
   }
   .sport {
@@ -1811,6 +1871,7 @@ svg {
 
 .profile {
   padding: 40px;
+  height: auto;
 }
 
 .profile .title {
@@ -1827,7 +1888,7 @@ svg {
   color: var(--secondary-font-color);
   font-family: Cormorant, serif;
   letter-spacing: 0;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 50;
 }
 
@@ -1839,7 +1900,7 @@ svg {
 .profile h3 {
   margin-top: -3px;
   font-size: 15px;
-  font-family: var(--body-font);
+  font-family: var(--headings font);
 }
 
 .profile h2 a {
@@ -1851,14 +1912,23 @@ svg {
 
 .profile h2 a:hover {
   color: var(--secondary-font-color);
+  text-decoration: none;
 }
 
 .profiler {
   margin-left: 600px;
 }
 
+.profiler p {
+  margin-top: 55rem;
+}
+
 .profilera {
   margin-left: 600px;
+}
+
+.profilera p {
+  margin-top: 55rem;
 }
 
 .practice h2 {
@@ -1892,30 +1962,50 @@ svg {
 /* Begin : Media Queries */
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
-
   .profile {
-    overflow-x: hidden;
+    overflow: hidden;
+  }
+
+  .link {
+    overflow: hidden;
   }
 
   .profile img {
-    margin-left: -35px;
+    margin-left: -40px;
     width: 300px;
   }
 
-  .profile .title{
+  .profile .title {
     margin-top: 10px;
-    margin-left: -2px;
+    margin-left: -25px;
   }
 
-  .profile .team-profile  {
-    margin-right: 20px;
+  .profile .team-profile {
+    margin-right: -1px;
   }
 
-  .profiler{
+  .profile h2 {
+    margin-bottom: -2px;
+    font-size: 5px;
+    margin-left: -25px;
+  }
+
+  .profile h2 a {
+    font-size: 18px;
+  }
+
+  .profile h3 {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -25px;
+    font-family: var(--secondary-font);
+  }
+
+  .profiler {
     margin: 350px -20px 25px;
   }
 
-  .profile .profiler h1{
+  .profile .profiler h1 {
     margin-left: -5px;
     font-size: 20px;
   }
@@ -1923,17 +2013,18 @@ svg {
   .profile .profiler p {
     font-size: 15px;
     margin-left: -5px;
+    margin-top: 1rem;
   }
 
-  .profile h3 {
-    margin-top: 7px;
+  .profiler p {
+    margin-top: 55rem;
   }
-  
+
   .profile h1 {
     font-size: 20px;
     margin-left: -90px;
   }
-  
+
   .profile .owolabi {
     width: 305px;
     margin-left: -50px;
@@ -1945,10 +2036,20 @@ svg {
     margin-left: -37px;
     margin-top: -0.01rem;
   }
-  
-  .profile .profilera h1{
-    margin-left: -17px;
+
+  .profilera {
+    margin-left: 2px;
+    margin-top: 20px;
+  }
+
+  .profilera p {
+    margin-top: 1rem;
+  }
+
+  .profile .profilera h1 {
+    margin-left: -10px;
     font-size: 20px;
+    margin-top: -10px;
   }
 
   .profile .profilera p {
@@ -1970,13 +2071,11 @@ svg {
     margin-left: -20px;
   }
 
-  .profiler{
+  .profiler {
     float: left;
     margin-top: -15px;
   }
 }
-
-
 /* End : Media Queries */
 
 .profile h1 {
@@ -2074,6 +2173,25 @@ svg {
   margin-left: 2px;
   margin-right: 25px;
   margin-top: 50px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+  .teams {
+    overflow: hidden;
+  }
+
+  .teams .carousel {
+    margin-top: -60px;
+    margin-left: 7px;
+  }
+
+  .teams .carousel .card .box {
+    padding-top: 3px;
+    margin-bottom: -5px;
+  }
+  .teams .carousel .card {
+    margin-top: 3px;
+  }
 }
 
 .teams .carousel .card:hover {
@@ -3176,8 +3294,8 @@ svg {
 }
 
 .contact-form form textarea#msg {
-  height: 100px;
-  padding-left: 10px;
+  height: 150px;
+  padding-left: 3px;
 }
 
 .contact-form form #send {

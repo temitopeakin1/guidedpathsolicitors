@@ -72,5 +72,4 @@ if(isset($_POST['update-topic'])) {
     $name = $_POST['name'];
     $description = $_POST['description'];
     }
-   
 }

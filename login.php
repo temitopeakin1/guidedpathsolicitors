@@ -71,7 +71,6 @@ guestsOnly();
     <!-- Scripts -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/cookie.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
@@ -79,7 +78,6 @@ guestsOnly();
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="assets/js/raindrops.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO_5h890WNShs_YLGivCBfs2U89qXR-7Y&callback=initMap"></script>
     <script src="assets/js/theme.js"></script>
 </body>

@@ -74,7 +74,7 @@
                       <path class="slide__overlay-path"  d="M0,700 850,-400 500,2500 0,405"  />
                   </svg>
                   <div class="slide__text">
-                        <h2 class="slide__text-heading">Expert in Maritime Law</h2>
+                        <h2 class="slide__text-heading">Experts in Sports Law</h2>
                         <p class="slide__text-desc">Your Best Path for all Your Legal needs</p>
                         <a href="/guidedpathsolicitors/about-us.php" class="button">Request a Free Consultation <i class="fas fa-angle-double-right"></i></i></a>
                     </div>
@@ -111,7 +111,7 @@
       <!-- slider area end -->
 
 <!--Begin: First Section home-->
-    <section class="first section home ptb--100" id="first-section-home">
+    <section class="first section home ptb--50" id="first-section-home">
         <div class="container-fluid white section" id="first-section-home">
             <div class="row">
               <div class="col">
@@ -158,7 +158,7 @@
     </section>
 
  <!-- Begin: Third section home-->
- <section class="third section home ptb--100" id="third-section-home">
+ <section class="third section home ptb--150" id="third-section-home">
     <div class="container">
         <div class="row">
             <div class="col-md-3 profile text-center">
@@ -264,12 +264,12 @@
         </div>
         <div class="contact__form">
             <h2>Contact Us <i class="fas fa-hand-point-down"></i></h2>
-            <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
+           
             <form action="mail.php" method="post">
-                <input type="text" class="contact__form-style" name="name" value="<?php echo $name ?>"placeholder="Your Name" required>
-                <input type="number" class="contact__form-style" name="phone" value="<?php echo $phone ?>" placeholder="Phone no" required>
-                <input type="text" class="contact__form-style" name="email" value="<?php echo $email ?>" placeholder="Email" required>
-                <textarea placeholder="Message"  textarea  name="message" value="<?php echo $message ?>"class="contact__form-textarea"></textarea>
+                <input type="text" class="contact__form-style" name="name" placeholder="Your Name" required>
+                <input type="number" class="contact__form-style" name="phone"  placeholder="Phone no" required>
+                <input type="text" class="contact__form-style" name="email"  placeholder="Email" required>
+                <textarea placeholder="Message"  textarea  name="message" class="contact__form-textarea"></textarea>
                 <button class="contact__form-btn" type="submit" value="Submit">Submit <i class="fas fa-long-arrow-alt-right"></i></button>
             </form> 
         </div>

@@ -69,12 +69,13 @@
                         </ul>
                     </div>
                     <div class="contact-form">
-                        <h4 class="contact-title">Fill completely and we'll respond back</h4>
-                        <form method="post" action="#">
-                            <input type="text" class="input" name="name" placeholder="Your Name *">
-                            <input type="email" class="input" name="email" placeholder="Your Email address*">
-                            <input type="text" class="input" name="subject" placeholder="Your Subject*">
-                            <textarea name="msg" class="input" id="msg" placeholder="Your Message*"></textarea>
+                        <h4 class="contact-title">Fill out the form below to recieve a free and confidential intial consultation.</h4>
+                        <form method="post" action="contact.php">
+                            <input type="text" class="input" name="name"  placeholder="Your Name *">
+                            <input type="email" class="input" name="email"  placeholder="Your Email address*">
+                            <input type="phone" class="input" name="phone"  placeholder="Phone number*">
+                            <input type="text" class="input" name="subject"  placeholder="Your Subject*">
+                            <textarea name="msg" class="input" id="msg" placeholder="Case Description*"></textarea>
                             <input type="submit" id="send" value="Submit">
                         </form>
                     </div>
@@ -111,15 +112,11 @@
 
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="assets/js/raindrops.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO_5h890WNShs_YLGivCBfs2U89qXR-7Y&callback=initMap"></script>
     <script src="assets/js/theme.js"></script>
 </body>

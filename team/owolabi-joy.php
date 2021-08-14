@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/jquery-ui.css">
     <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
     <link rel = "stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet" href="../assets/css/slicknav.min.css">
     <link rel="stylesheet" href="../assets/css/jquery.mb.YTPlayer.min.css">
@@ -74,7 +73,7 @@
                                      <li><a href="../team/chinedu-sunday.php">Chinedu Sunday</a></li>
                                    </ul>
                                   </li>
-                                   <li><a href="contact-us.php">Contact</a></li>
+                                   <li><a href="../contact-us.php">Contact</a></li>
                                  </ul>
                             </nav>
                         </div>
@@ -101,16 +100,16 @@
                   <div class="row">
                     <div class="col-md-6">
                       <h1 class="title">Solicitors</h1>
-                      <h2><a href="../team/morakinyo-oloruntoba.php">Morakinyo Oloruntoba Esq</a></h2>
+                      <h2><a href="../team/morakinyo-oloruntoba.php">Morakinyo Oloruntoba Esq.</a></h2>
                       <h3>Principal Partner</h3>
                       <hr class="horizontal">
-                      <h2><a href="../team/owolabi-joy.php">Owolabi Joy Isah Esq</a></h2>
+                      <h2><a href="../team/owolabi-joy.php">Owolabi Joy I. Esq.</a></h2>
                       <h3>Partner</h3>
                       <hr class="horizontal">
-                      <h2><a href="../team/adeola-adebanjo.php">Adeola Adebanjo Faidat Esq</a></h2>
+                      <h2><a href="../team/adeola-adebanjo.php">Adeola Adebanjo F. Esq.</a></h2>
                       <h3>Partner</h3>
                       <hr class="horizontal">
-                      <h2><a href="../team/chinedu-sunday.php">Chinedu Sunday Esq</a></h2>
+                      <h2><a href="../team/chinedu-sunday.php">Chinedu Sunday Esq.</a></h2>
                       <h3>Partner</h3>
                       <hr class="horizontal">
                       </div>
@@ -134,8 +133,7 @@
                  </div>      
                   </div> 
                     <div class="profiler">
-                      <h1>Owolabi Joy Isah Esq</h1>
-                       <p>Joy Owolabi Esq is a seasoned and talented solicitor with an eye for detail.
+                      <p>Joy Owolabi Esq is a seasoned and talented solicitor with an eye for detail.
                          She obtained her L.L.B. Degree from the Kogi State University  in 2014 and
                          was enrolled as a Solicitor and Advocate of the Supreme Court of Nigeria in
                          2015 after completing the Barrister at Law (B.L) Programme at the Nigerian Law School, 
@@ -229,15 +227,10 @@
 
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="../assets/js/app.js"></script>
-    <script src="../assets/js/slider.js"></script>
-    <script src="../assets/js/jquery-3.5.1.min.js"></script>
-    <script src="../assets/js/jquery-ui.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
     <script src="../assets/js/scroll.js"></script>
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/jquery.slicknav.min.js"></script>
     <script src="../assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="../assets/js/raindrops.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO_5h890WNShs_YLGivCBfs2U89qXR-7Y&callback=initMap"></script>
     <script src="../assets/js/theme.js"></script>
 </body>

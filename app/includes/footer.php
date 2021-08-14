@@ -16,13 +16,13 @@
          <ul>
              <li><a href="../">Home</a></li>
              <li><a href="about-us.php">About Us</a></li>
-             <li><a href="/guidedpathsolicitors/expertise/debt-recovery.php">Debt Recovery</a></li>
-             <li><a href="/guidedpathsolicitors/expertise/commercial-corporate-law-practice.php">Commercial & Corporate Law Practices</a></li>
-             <li><a href="/guidedpathsolicitors/expertise/sports-law.php">Sports Law</a></li>
-             <li><a href="/guidedpathsolicitors/expertise/sport-management-consultancy.php">Sports management & Consultancy Services</a></li>
-             <li><a href="/guidedpathsolicitors/expertise/property-verification-services.php">Property-verification-services</a></li>
-             <li><a href="/guidedpathsolicitors/expertise/litigation-arbitration.php">Litigation & Arbitration</a></li>
-             <li><a href="/guidedpathsolicitors/articles.php">Articles</a></li>
+             <li><a href="/expertise/debt-recovery.php">Debt Recovery</a></li>
+             <li><a href="/expertise/commercial-corporate-law-practice.php">Commercial & Corporate Law Practices</a></li>
+             <li><a href="/expertise/sports-law.php">Sports Law</a></li>
+             <li><a href="/expertise/sport-management-consultancy.php">Sports management & Consultancy Services</a></li>
+             <li><a href="/property-verification-services.php">Property-verification-services</a></li>
+             <li><a href="/expertise/litigation-arbitration.php">Litigation & Arbitration</a></li>
+             <li><a href="/articles.php">Articles</a></li>
          </ul>
      </div> 
  <div class="footer-section contact-form">
