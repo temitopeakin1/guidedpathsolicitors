@@ -1,6 +1,4 @@
-# guidedpathsolicitors
 
-A legal website developed using html, CSS, Javascript, Php and MySQL
 <table>
   <tr>
     <td>Home Screen (desktop)</td>
@@ -13,6 +11,9 @@ A legal website developed using html, CSS, Javascript, Php and MySQL
     <td><img src="https://user-images.githubusercontent.com/48892912/90362438-8b7a1880-e058-11ea-94c4-4379ff9fadf1.png" width=270 height=480></td>
   </tr>
  </table>
+ <strong>Description</strong><br>
+# guidedpathsolicitors
+A legal website developed using html, CSS, Javascript, Php and MySQL
 
 https://www.guidedpathsolicitors.com
 
